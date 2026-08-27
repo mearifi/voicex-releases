@@ -1,7 +1,7 @@
 {
-  "latestVersion": "0.3.3",
-  "build": 16,
-  "dmgURL": "https://github.com/mearifi/voicex-releases/releases/download/v0.3.3/VoiceX-0.3.3-notarized.dmg",
-  "sha256": "504bdcca6d070e583fcef6289b7e72eb8c860ece2b8a105a9f609e828fc32345",
-  "releaseNotes": "VoiceX 0.3.3 adds Install Update & Relaunch. The app now downloads the signed/notarized DMG, verifies SHA-256, replaces /Applications/VoiceX.app, and reopens itself. Open Download remains as a fallback."
+  "latestVersion": "0.3.4",
+  "build": 17,
+  "dmgURL": "https://github.com/mearifi/voicex-releases/releases/download/v0.3.4/VoiceX-0.3.4-notarized.dmg",
+  "sha256": "3e77e6587c1eed29e84c9b1816591ae6d337cc5cf36485c6ca673f06a6787f03",
+  "releaseNotes": "VoiceX 0.3.4 completes the in-app updater flow: Check for Updates can now download the signed/notarized DMG, verify SHA-256, replace /Applications/VoiceX.app, quit, and reopen the new version."
 }
