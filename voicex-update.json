@@ -1,7 +1,8 @@
 {
-  "latestVersion": "0.3.4",
-  "build": 17,
-  "dmgURL": "https://github.com/mearifi/voicex-releases/releases/download/v0.3.4/VoiceX-0.3.4-notarized.dmg",
-  "sha256": "3e77e6587c1eed29e84c9b1816591ae6d337cc5cf36485c6ca673f06a6787f03",
-  "releaseNotes": "VoiceX 0.3.4 completes the in-app updater flow: Check for Updates can now download the signed/notarized DMG, verify SHA-256, replace /Applications/VoiceX.app, quit, and reopen the new version."
+  "latestVersion": "0.6.0",
+  "build": 38,
+  "dmgURL": "https://voicex-app.pages.dev/VoiceX-0.6.0.dmg",
+  "sha256": "8f2caf74c1bf82ec09d04cf5cd6d5cb68ecdd09f39091b850bff5d13d723436c",
+  "releaseNotes": "\u2022 Cleaner text. Numbers keep their case (\"0.6 version\", \"2nd\"), a pause no longer capitalizes the next word, and you can say \"comma\", \"question mark\", \"full stop\" or \"scratch that\" (Arabic: \"\u0639\u0644\u0627\u0645\u0629 \u0627\u0633\u062a\u0641\u0647\u0627\u0645\", \"\u0633\u0637\u0631 \u062c\u062f\u064a\u062f\").\n\u2022 Shortcuts stay shortcuts. \u2325\u2190 and other shortcuts with the key no longer start a dictation or lock hands-free mode. \u2303\u2318V pastes your last dictation anywhere.\n\u2022 No clipped words. The microphone opens without waiting for the speech engine and keeps listening a moment after you let go.\n\u2022 Choose your microphone (or always use the Mac's own), and optionally pause music and video while you dictate.\n\u2026and more.",
+  "minimumSystemVersion": "14.0"
 }
