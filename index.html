@@ -2,15 +2,24 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VoiceX releases</title>
+<title>Voice Engineering releases</title>
 <style>
-  :root { color-scheme: light dark; }
-  body { font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 640px; margin: 48px auto; padding: 0 20px; }
-  a { color: #4b49c2; }
-  @media (prefers-color-scheme: dark) { a { color: #a5a3ff; } }
+  :root { color-scheme: light dark; --paper: #f2eef1; --card: #ffffff; --ink: #0e0e10; --ink-2: #67616a; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #121214; --card: #1c1c1f; --ink: #f4f2f4; --ink-2: #a7a2a8; } }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 640px; margin: 64px auto; padding: 0 20px; }
+  .label { font: 600 11.5px/1.5 ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); }
+  h1 { font-size: 44px; line-height: 1; letter-spacing: -.035em; margin: 10px 0 20px; }
+  .card { background: var(--card); border-radius: 24px; padding: 6px 24px; margin-bottom: 18px; }
+  a { color: inherit; text-underline-offset: 3px; }
 </style>
-<h1>VoiceX releases</h1>
-<p>Latest release: <a href="https://github.com/mearifi/voicex-releases/releases/tag/v0.6.0">VoiceX 0.6.0</a></p>
-<p>VoiceX is push-to-talk dictation for the Mac, in English and Arabic. Download it and read more at <a href="https://voicex-app.pages.dev">voicex-app.pages.dev</a>.</p>
-<p><a href="https://github.com/mearifi/voicex-releases/releases">All releases</a> · <a href="voicex-update.json">voicex-update.json</a> (update feed for early versions)</p>
+<main>
+  <p class="label">Releases</p>
+  <h1>Voice Engineering</h1>
+  <div class="card">
+    <p>Latest release: <a href="https://github.com/mearifi/voicex-releases/releases/tag/v1.0.0">Voice Engineering 1.0.0</a></p>
+    <p>Push-to-talk dictation for the Mac, in English and Arabic. Download it and read more at <a href="https://voice-engineering.pages.dev">voice-engineering.pages.dev</a>.</p>
+  </div>
+  <p class="label"><a href="https://github.com/mearifi/voicex-releases/releases">All releases</a> · <a href="voicex-update.json">Update feed for early versions</a></p>
+</main>
 </html>
