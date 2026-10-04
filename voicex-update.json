@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.0",
-  "build": 39,
-  "dmgURL": "https://voicex-app.pages.dev/VoiceEngineering-1.0.0.dmg",
-  "sha256": "da7ddf06090125c568b036f6fddc6573cc5b73ac335be20920fe88bb2a4025b2",
-  "releaseNotes": "\u2022 VoiceX is now Voice Engineering, with a new icon and a new design: colour modules, big numbers, a hatched meter of your last ten days, and four pages \u2014 Home, History, Dictionary, Settings. Light and dark.\n\u2022 In the Dock while it's open (Keep in Dock works). Quitting from the Dock keeps the key working from the menu bar; Quit in the menu bar icon's menu quits completely.\n\u2022 Arabic, more accurate. An optional high-accuracy model that runs on your Mac (Settings \u25b8 Language, a one-time 1.6 GB download) made about half as many mistakes on Gulf and Saudi speech in our tests, and words said before a pause are no longer lost.\n\u2026and more.",
+  "latestVersion": "1.0.1",
+  "build": 40,
+  "dmgURL": "https://voicex-app.pages.dev/VoiceEngineering-1.0.1.dmg",
+  "sha256": "e43642f8361847c1236b20ee1448c8a5a3a778c5f60f49dbea410bb70a5202e1",
+  "releaseNotes": "\u2022 A simpler floating pill in Liquid Glass, so it follows System Settings \u25b8 Appearance: a red dot, the level and your words, nothing else. It shows up as soon as you press, and says plainly when no microphone is connected.\n\u2022 Your microphone on Home: see it and switch it, kept current as headsets come and go. Bluetooth headsets that reconfigure when the mic opens no longer cut a recording short.\n\u2022 One update button: Download & Install \u2014 the app reopens on Home when it's done.\n\u2022 Simpler Settings: fewer options, less to read.",
   "minimumSystemVersion": "14.0"
 }
