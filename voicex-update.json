@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.1",
-  "build": 40,
-  "dmgURL": "https://voicex-app.pages.dev/VoiceEngineering-1.0.1.dmg",
-  "sha256": "e43642f8361847c1236b20ee1448c8a5a3a778c5f60f49dbea410bb70a5202e1",
-  "releaseNotes": "\u2022 A simpler floating pill in Liquid Glass, so it follows System Settings \u25b8 Appearance: a red dot, the level and your words, nothing else. It shows up as soon as you press, and says plainly when no microphone is connected.\n\u2022 Your microphone on Home: see it and switch it, kept current as headsets come and go. Bluetooth headsets that reconfigure when the mic opens no longer cut a recording short.\n\u2022 One update button: Download & Install \u2014 the app reopens on Home when it's done.\n\u2022 Simpler Settings: fewer options, less to read.",
+  "latestVersion": "1.0.2",
+  "build": 41,
+  "dmgURL": "https://voicex-app.pages.dev/VoiceEngineering-1.0.2.dmg",
+  "sha256": "c496f4a08a55fa27deb8e7ca9627952d49637232c6b8390cca86884259ba2fc0",
+  "releaseNotes": "\u2022 Fixed a crash while switching microphones or when a Bluetooth headset changed mode during a recording.\n\u2022 The microphone is found the first time: while a headset or a newly chosen mic is still settling, the app waits a moment instead of saying \"The microphone changed \u2014 try again\".\n\u2022 The microphone in the menu bar: the menu bar icon's menu shows which microphone is in use, and switches it.",
   "minimumSystemVersion": "14.0"
 }
